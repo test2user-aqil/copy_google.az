@@ -14,6 +14,48 @@ body {
     color: #bdc1c6;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+}
+
+/**
+ * ----------------------------------------------------------------
+ * NAV
+ * ----------------------------------------------------------------
+ */
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav > div {
+    margin-left: 15px;
+}
+
+.nav-link {
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.nav-btn {
+    max-width: 32px;
+    max-height: 32px;
+    padding: 4px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.nav-btn:hover,
+.nav-btn:active {
+    background-color: #353638;
+}
+
 /**
  * ----------------------------------------------------------------
  * MAIN
@@ -65,10 +107,5 @@ footer {
 .footer-link {
     padding: 15px;
     color: #999da2;
-    text-decoration: none;
     white-space: nowrap;
-}
-.footer-link:hover,
-.footer-link:active {
-    text-decoration: underline;
 }
