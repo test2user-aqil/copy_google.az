@@ -79,6 +79,55 @@ main {
 }
 
 /**
+ * SEARCH BAR
+ */
+.search-bar {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #bdc1c6;
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 20px;
+    width: min-content;
+    min-width: 584px;
+    align-items: center;
+}
+
+.search-bar--active,
+.search-bar:hover {
+    background-color: #303134;
+    box-shadow: 0 1px 6px 0 #171717;
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.search-bar > svg {
+    max-width: 20px;
+    min-width: 20px;
+    margin: 0 13px;
+}
+
+.search-bar > input {
+    border: none;
+    font-family: arial, sans-serif;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #e8eaed;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    height: 34px;
+    font-size: 16px;
+}
+
+/**
  * ----------------------------------------------------------------
  * FOOTER
  * ----------------------------------------------------------------
